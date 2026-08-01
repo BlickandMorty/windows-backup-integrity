@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "destinationRoot": "D:\\Windows-State-Backups",
+  "archiveName": "windows-state",
+  "createZip": true,
+  "retentionCount": 10,
+  "sources": [
+    {
+      "name": "Laptop-Polish",
+      "path": "%USERPROFILE%\\Documents\\Laptop-Polish",
+      "excludeDirectories": ["reports", "archive", ".git"],
+      "excludeFiles": ["*.log", "*.tmp"]
+    }
+  ]
+}
+
